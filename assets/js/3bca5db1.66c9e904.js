@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkbvk_arbeitgeberportal_doku=globalThis.webpackChunkbvk_arbeitgeberportal_doku||[]).push([[928],{133:e=>{e.exports=JSON.parse('{"authors":[{"name":"BVK Redaktion","title":"BVK Arbeitgeberportal","url":"https://www.bvk.ch","key":"bvk-redaktion","page":null,"count":2}]}')}}]);
