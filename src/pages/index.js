@@ -1,131 +1,88 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
+import Heading from '@theme/Heading';
+import DocCard from '@site/src/components/DocCard';
 import styles from './index.module.css';
-import HeroParticles from '@site/src/components/HeroParticles';
 
-function QuickAccessCard({ title, description, to, cta }) {
+const sections = [
+  {
+    title: 'Benutzerhandbuch',
+    description: 'Für HR, Lohnadministration und Treuhänder: Formulare bearbeiten, Dateien austauschen und das eigene Profil verwalten.',
+    to: '/docs/benutzerhandbuch/',
+    cta: 'Benutzerhandbuch öffnen',
+  },
+  {
+    title: 'Benutzer verwalten',
+    description: 'Für User-Administratoren in Ihrem Betrieb: Benutzerkonten verwalten und Rollen sowie Berechtigungen zuweisen.',
+    to: '/docs/adminhandbuch/',
+    cta: 'Anleitungen für User-Administratoren',
+  },
+  {
+    title: 'Häufige Fragen',
+    description: 'Antworten zur Anmeldung, zum Sicherheitscode und zu typischen Fragen bei der täglichen Arbeit im Portal.',
+    to: '/docs/faq',
+    cta: 'Antworten finden',
+  },
+];
+
+function Hero() {
   return (
-    <div className={styles.card}>
-      <h2 className={styles.cardTitle}>{title}</h2>
-      <p className={styles.cardText}>{description}</p>
-      <Link className={styles.cardLink} to={to}>
-        {cta}
-      </Link>
-    </div>
+    <header className={styles.hero}>
+      <div className={styles.meshLayer} aria-hidden="true" />
+      <div className={styles.gridLayer} aria-hidden="true" />
+      <div className={styles.heroBackdrop} aria-hidden="true">BVK</div>
+      <div className="container">
+        <div className={styles.heroGrid}>
+          <div>
+            <p className={styles.eyebrow}>BVK Arbeitgeberportal · Benutzerhandbuch</p>
+            <Heading as="h1" className={styles.heroTitle}>Ihr Weg durch das Arbeitgeberportal</Heading>
+            <p className={styles.heroSubtitle}>
+              Anleitungen für Arbeitgeber, HR, Lohnadministration und Treuhänder.
+              Finden Sie die passenden Schritte für Ihre Arbeit im Portal.
+            </p>
+            <div className={styles.heroActions}>
+              <Link className="button button--primary button--lg" to="/docs/getting-started">Zum Schnellstart</Link>
+              <Link className="button button--secondary button--lg" to="/docs/benutzerhandbuch/">Handbuch öffnen</Link>
+            </div>
+          </div>
+          <nav className={styles.quickAccess} aria-labelledby="quick-access-title">
+            <Heading as="h2" className={styles.quickAccessTitle}><span id="quick-access-title">Was möchten Sie tun?</span></Heading>
+            <ul>
+              <li><Link to="/docs/benutzerhandbuch/formulare-und-arbeitsablaeufe">Formulare bearbeiten <span aria-hidden="true">→</span></Link></li>
+              <li><Link to="/docs/benutzerhandbuch/datei-upload-und-download">Dateien hoch- und herunterladen <span aria-hidden="true">→</span></Link></li>
+              <li><Link to="/docs/adminhandbuch/benutzerverwaltung">Benutzer verwalten <span aria-hidden="true">→</span></Link></li>
+              <li><Link to="/docs/benutzerhandbuch/tipps-und-hinweise">Profil und Mitteilungen <span aria-hidden="true">→</span></Link></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
   );
 }
 
 export default function Home() {
   return (
-    <Layout
-      title="BVK Arbeitgeberportal - Benutzerhandbuch"
-      description="Online-Dokumentation für Benutzer und User-Administratoren des BVK Arbeitgeberportals"
-    >
-      <header className={styles.hero}>
-        <HeroParticles />
-        <div className="container">
-          <div className={styles.heroInner}>
-            <div className={styles.heroContent}>
-              <p className={styles.eyebrow}>BVK Arbeitgeberportal</p>
-              <h1 className={styles.heroTitle}>Benutzerhandbuch</h1>
-              <p className={styles.heroSubtitle}>
-                Willkommen in der Online-Dokumentation des Arbeitgeberportals.
-                Hier finden Sie Anleitungen für Benutzer, User-Administratoren
-                und schnelle Hilfe für häufige Fragen.
-              </p>
-
-              <div className={styles.heroActions}>
-                <Link
-                  className="button button--primary button--lg"
-                  to="/docs/getting-started"
-                >
-                  Schnellstart
-                </Link>
-                <Link
-                  className={styles.secondaryButton}
-                  to="/docs/faq"
-                >
-                  FAQ öffnen
-                </Link>
-              </div>
-            </div>
-
-            <div className={styles.heroPanel}>
-              <div className={styles.heroPanelBox}>
-                <p className={styles.heroPanelLabel}>Direkteinstieg</p>
-                <ul className={styles.heroPanelList}>
-                  <li>
-                    <Link to="/docs/benutzerhandbuch">Benutzerhandbuch</Link>
-                  </li>
-                  <li>
-                    <Link to="/docs/adminhandbuch">Adminhandbuch</Link>
-                  </li>
-                  <li>
-                    <Link to="/docs/login-und-sicherheit">Login &amp; Sicherheit</Link>
-                  </li>
-                  <li>
-                    <Link to="/docs/faq">Häufige Fragen</Link>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </header>
-
+    <Layout title="Benutzerhandbuch" description="Anleitungen zum BVK Arbeitgeberportal für Arbeitgeber, HR, Lohnadministration, Treuhänder und betriebliche User-Administratoren.">
       <main>
-        <section className={styles.section}>
+        <Hero />
+        <section className={styles.section} aria-labelledby="sections-title">
           <div className="container">
             <div className={styles.sectionHeader}>
-              <p className={styles.sectionKicker}>Dokumentation</p>
-              <h2 className={styles.sectionTitle}>Schnell zum richtigen Bereich</h2>
-              <p className={styles.sectionText}>
-                Wählen Sie den Bereich, der zu Ihrer Rolle oder Ihrem Anliegen passt.
-              </p>
+              <Heading as="h2"><span id="sections-title">Schnell zum richtigen Bereich</span></Heading>
+              <p>Wählen Sie den Bereich, der zu Ihrer Rolle oder Ihrem Anliegen passt.</p>
             </div>
-
-            <div className={styles.grid}>
-              <QuickAccessCard
-                title="Benutzerhandbuch"
-                description="Für Mitarbeitende, die mit Formularen, Dateien und Meldungen im Portal arbeiten."
-                to="/docs/benutzerhandbuch"
-                cta="Benutzerhandbuch öffnen"
-              />
-              <QuickAccessCard
-                title="Adminhandbuch"
-                description="Für User-Administratoren, die Benutzer verwalten und Rollen sowie Berechtigungen pflegen."
-                to="/docs/adminhandbuch"
-                cta="Adminhandbuch öffnen"
-              />
-              <QuickAccessCard
-                title="FAQ"
-                description="Für schnelle Antworten zu Login, Sicherheitscode, Timeout und typischen Fragen im Alltag."
-                to="/docs/faq"
-                cta="FAQ öffnen"
-              />
-            </div>
+            <div className={styles.cards}>{sections.map((section) => <DocCard key={section.to} {...section} />)}</div>
           </div>
         </section>
-
-        <section className={styles.highlightSection}>
+        <section className={styles.helpSection} aria-labelledby="help-title">
           <div className="container">
-            <div className={styles.highlightBox}>
+            <div className={styles.helpBox}>
               <div>
-                <p className={styles.sectionKicker}>Sicherheit</p>
-                <h2 className={styles.highlightTitle}>Login und Zugriff</h2>
-                <p className={styles.highlightText}>
-                  Informationen zur Anmeldung, zum Sicherheitscode und zum Umgang
-                  mit Login-Problemen finden Sie im Bereich Login &amp; Sicherheit.
-                </p>
+                <Heading as="h2"><span id="help-title">Hilfe bei Anmeldung und Zugriff</span></Heading>
+                <p>Informationen zum Portal-Login, zum Sicherheitscode und zu häufigen Anmeldeproblemen.</p>
               </div>
-
-              <Link
-                className="button button--primary button--lg"
-                to="/docs/login-und-sicherheit"
-              >
-                Zu Login &amp; Sicherheit
-              </Link>
+              <Link className="button button--secondary button--lg" to="/docs/login-und-sicherheit">Zu Login &amp; Sicherheit</Link>
             </div>
           </div>
         </section>

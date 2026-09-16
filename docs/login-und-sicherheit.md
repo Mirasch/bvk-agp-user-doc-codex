@@ -2,7 +2,7 @@
 id: login-und-sicherheit
 title: Login & Sicherheit
 sidebar_position: 3
-description: Zweistufige Anmeldung, Zeitueberschreitung und haeufige Login-Fragen.
+description: Zweistufige Anmeldung, Zeitüberschreitung und häufige Login-Fragen.
 ---
 
 ## Anmeldung in drei Schritten
@@ -16,12 +16,12 @@ description: Zweistufige Anmeldung, Zeitueberschreitung und haeufige Login-Frage
 - Nach **20 Minuten ohne Aktion** werden Sie automatisch abgemeldet.
 - Melden Sie sich danach erneut an.
 
-## Haeufige Login-Hinweise
-- **Code kommt ver spaetet an?** Zustellzeit haengt von Ihrem E-Mail-Anbieter ab.
-- **Browser speichert ein falsches Passwort?** Gespeicherte Zugangsdaten im Browser loeschen.
-- **Seite laedt endlos?** Seite aktualisieren (z. B. Taste `F5`).
+## Häufige Login-Hinweise {#haeufige-login-hinweise}
+- **Code kommt verspätet an?** Zustellzeit hängt von Ihrem E-Mail-Anbieter ab.
+- **Browser speichert ein falsches Passwort?** Gespeicherte Zugangsdaten im Browser löschen.
+- **Seite lädt endlos?** Seite aktualisieren (z. B. Taste `F5`).
 
 ## E-Mail-Adressen
-- Hinterlegen Sie unter **Mein Profil** Ihre **persoenliche Geschaefts-E-Mail-Adresse** fuer Login-Codes und Benachrichtigungen.
+- Hinterlegen Sie unter **Mein Profil** Ihre **persönliche Geschäfts-E-Mail-Adresse** für Login-Codes und Benachrichtigungen.
 
 ![Mein Profil](./img/profil.png)

@@ -7,6 +7,8 @@ tags: [Arbeitgeber, Zweite Säule, Vorsorgewissen]
 
 Die berufliche Vorsorge begleitet Arbeitgeber durch den ganzen Lebenszyklus eines Arbeitsverhältnisses: vom Eintritt über Lohnänderungen bis zum Austritt. Gerade im Alltag zeigt sich, dass viele Themen nicht kompliziert sind – aber saubere Prozesse und ein gutes Verständnis sehr wichtig sind.
 
+<!-- truncate -->
+
 ## Warum die zweite Säule für Arbeitgeber relevant ist
 
 Die zweite Säule ist ein zentraler Bestandteil der sozialen Absicherung in der Schweiz. Für Arbeitgeber bedeutet das vor allem: Veränderungen im Arbeitsverhältnis wirken sich oft auch auf die berufliche Vorsorge aus.
@@ -71,5 +73,5 @@ Wenn Sie das Arbeitgeberportal nutzen, lohnt es sich, interne Abläufe regelmäs
 ## Weiterführende Informationen
 
 - [Benutzerhandbuch](/docs/benutzerhandbuch)
-- [Adminhandbuch](/docs/adminhandbuch)
+- [Handbuch für User-Administratoren](/docs/adminhandbuch)
 - [FAQ](/docs/faq)

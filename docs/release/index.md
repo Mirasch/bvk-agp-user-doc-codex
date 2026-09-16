@@ -5,9 +5,13 @@ sidebar_position: 1
 description: Sammlung der Releases.
 ---
 
-Dieses Kapitel richtet sich an **User-Administratoren** innerhalb der angeschlossenen Betriebe.
+Hier finden Sie die vorhandenen Release-Notizen zum Arbeitgeberportal.
 
-**Aufgaben im Ueberblick:**
-- Benutzer **registrieren**, **bearbeiten**, **deaktivieren**
-- **Rollen & Berechtigungen** zuweisen
-- Sicherheit & Richtlinien durchsetzen (persoenliche Konten, E-Mail-Adressen)
+:::info[Beispielinhalte]
+Die Notizen für Januar und März 2026 enthalten Beispiele. Sie sind keine bestätigten Release-Mitteilungen.
+:::
+
+- [Januar 2026 (Beispiel)](./release-notes-2026-1.md)
+- [März 2026 (Beispiel)](./release-notes-2026-3.md)
+
+Weitere Beiträge finden Sie unter [Aktuelles](/aktuelles).

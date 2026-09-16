@@ -7,7 +7,7 @@ description: Nützliche Hinweise zu Mitteilungen, Profil und Vertragssicht.
 
 ## Mitteilungen
 - Aktuelle Portalhinweise unter **Mitteilungen** (Glocken-Symbol). 
-- Neue Mitteilungen erscheinen nach dem Login; fruehere Mitteilungen koennen jederzeit eingesehen werden.
+- Neue Mitteilungen erscheinen nach dem Login; frühere Mitteilungen können jederzeit eingesehen werden.
 
 ![Mitteilungen](../img/mitteilungen.png)
 
@@ -17,5 +17,5 @@ description: Nützliche Hinweise zu Mitteilungen, Profil und Vertragssicht.
 
 ![Mein Profil](../img/profil.png)
 
-## Vertraege wechseln
+## Verträge wechseln {#vertraege-wechseln}
 - Falls Sie mehrere Verträge betreuen, können Sie via **Vertrag wechseln** zwischen ihnen umschalten.

@@ -2,7 +2,7 @@
 id: support-und-kontakt
 title: Support & Kontakt
 sidebar_position: 5
-description: Kontaktmoeglichkeiten fuer Betriebe.
+description: Kontaktmöglichkeiten für Betriebe.
 ---
 
 **Betriebe mit mehr als 20 Mitarbeitenden**  

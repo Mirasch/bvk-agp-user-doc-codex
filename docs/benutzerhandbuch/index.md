@@ -2,13 +2,16 @@
 id: benutzer-index
 title: Benutzerhandbuch
 sidebar_position: 1
-description: Anleitung fuer Endnutzer - Navigation, Formulare, Downloads & Uploads.
+description: Anleitung für Benutzer - Navigation, Formulare, Downloads & Uploads.
 ---
 
-Dieses Kapitel richtet sich an **Endnutzer** (z. B. Lohnadministration, HR-Verantwortliche).
+Dieses Kapitel richtet sich an **Benutzer** (z. B. Lohnadministration, HR-Verantwortliche).
 
-**Inhalte:**
-- Navigation & Startseite
-- Arbeiten mit **Formularen** (neu, Entwuerfe, abgesendet)
-- **Listen & Dateien** (Download, Upload)
-- **Mitteilungen** & **Profil**
+## Anleitungen
+
+- [Rollen & Berechtigungen](./rollen-und-berechtigungen.md)
+- [Formulare bearbeiten: neue Formulare, Entwürfe und abgesendete Formulare](./formulare-und-arbeitsablaeufe.md)
+- [Listen & Dateien: Download und Upload](./datei-upload-und-download.md)
+- [Mitteilungen, Mein Profil und Vertrag wechseln](./tipps-und-hinweise.md)
+
+Neu im Portal? Beginnen Sie mit dem [Schnellstart](../getting-started.md).

@@ -2,14 +2,16 @@
 id: release-notes-2026-3
 title: Release Notes März
 sidebar_position: 99
-description: Aenderungen und neue Funktionen des Arbeitgeberportals.
+description: Änderungen und neue Funktionen des Arbeitgeberportals.
 ---
 
-Hier dokumentieren Sie Neuerungen, Fehlerbehebungen und Aenderungen pro Version.
+:::info[Beispielinhalte]
+Diese Seite enthält Beispiele und ist keine bestätigte Release-Mitteilung.
+:::
 
 ## v3.0 - Beispiel
-- Aktualisierte Login- und Sicherheitsablaeufe
+- Aktualisierte Login- und Sicherheitsabläufe
 - Verbesserte Formularsuche und Favoriten
-- Upload-Benachrichtigungen fuer Lohnadministration
+- Upload-Benachrichtigungen für Lohnadministration
 
-> Tipp: Verlinken Sie hier auf die entsprechenden Kapitelseiten oder Jira-Tickets.
+[Zur Übersicht der Release Notes](./index.md)

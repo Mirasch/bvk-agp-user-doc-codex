@@ -7,6 +7,8 @@ tags: [Portal, Update]
 
 Im Arbeitgeberportal steht eine neue Funktion zur Verfügung.
 
+<!-- truncate -->
+
 ## Was ist neu?
 
 Die neue Funktion verbessert den Zugriff auf wichtige Informationen und vereinfacht ausgewählte Arbeitsabläufe im Portal.
