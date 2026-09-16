@@ -6,11 +6,11 @@ const config = {
   title: 'BVK Arbeitgeberportal',
   tagline: 'Benutzerhandbuch und Online-Dokumentation',
   favicon: 'img/favicon_bvk.ico',
-  // Preserve the existing GitHub Pages destination and public URL prefix.
+  // GitHub Pages destination and URL prefix match the repository name.
   url: 'https://Mirasch.github.io',
-  baseUrl: '/bvk_arbeitgeberportal_doku/',
+  baseUrl: '/bvk-agp-user-doc-codex/',
   organizationName: 'Mirasch',
-  projectName: 'bvk_arbeitgeberportal_doku',
+  projectName: 'bvk-agp-user-doc-codex',
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'throw',
   markdown: {hooks: {onBrokenMarkdownLinks: 'throw'}},

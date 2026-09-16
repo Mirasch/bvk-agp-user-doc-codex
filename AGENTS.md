@@ -54,7 +54,7 @@ Docusaurus 3.9.1, React 19, Markdown/MDX 3, JavaScript/JSX, CSS und CSS Modules;
 - Dateinamen für Inhalte in `kebab-case`, React-Komponenten in `PascalCase`; funktionale Komponenten und `@theme/Heading` verwenden. Wiederverwendbare Karten in `DocCard` pflegen.
 - Globale Designvariablen nur in `src/css/custom.css`; lokale Layouts in CSS Modules. BVK-Blau `#004a99`, helle Flächen, abgerundete Karten und der zurückhaltende Grid-/Mesh-Hintergrund verbinden die Geschwisterseiten. Dunkelmodus mit semantischen Tokens gestalten, keine fest dunklen Textfarben auf dunklen Flächen.
 - Keine Theme-Komponenten vollständig kopieren, wenn eine kleine Erweiterung genügt. Standard-MDX-Komponenten beim Erweitern erhalten.
-- Interne Markdown-Links auf `.md`/`.mdx`-Quelldateien setzen; React-Links mit `@docusaurus/Link`. Für statische React-Bilder `useBaseUrl` verwenden. Niemals `/bvk_arbeitgeberportal_doku/` in Inhalt oder React hardcodieren. Externe Links mit aussagekräftigem Text und vollständiger URL schreiben.
+- Interne Markdown-Links auf `.md`/`.mdx`-Quelldateien setzen; React-Links mit `@docusaurus/Link`. Für statische React-Bilder `useBaseUrl` verwenden. Niemals `/bvk-agp-user-doc-codex/` in Inhalt oder React hardcodieren. Externe Links mit aussagekräftigem Text und vollständiger URL schreiben.
 - Tabellen horizontal scrollbar und per Tastatur bedienbar halten; Bilder responsiv und ohne Verzerrung. Semantische Überschriften, sichtbarer Fokus, verständliche Linktexte und ausreichender Kontrast sind Pflicht. Reduzierte Bewegung respektieren; dekorative Animation ist nicht erforderlich.
 - Layout bei 1440, 768 und 375 Pixeln sowie bei langen Überschriften prüfen. Den Docusaurus-Navigationswechsel bei 996 Pixeln berücksichtigen. Keine horizontale Seitenausdehnung; nur breite Tabellen/Codeblöcke separat scrollen.
 - Starter-Beispiele und alte Konfigurationskopien nicht wieder einführen. Keine generierten Dateien, lokalen Secrets, `.env`, `node_modules`, `build` oder `.docusaurus` einchecken.
@@ -79,6 +79,6 @@ Kein separater Lint- oder Unit-Test-Runner ist eingerichtet; keine erfundenen `l
 
 ## Deployment
 
-Bestehendes Ziel: `https://Mirasch.github.io/bvk_arbeitgeberportal_doku/`, Repository `Mirasch/bvk_arbeitgeberportal_doku`. Statische Ausgabe `build/`. Den lokalen Ordnernamen nicht mit dem Deployment-Repository verwechseln.
+Bestehendes Ziel: `https://Mirasch.github.io/bvk-agp-user-doc-codex/`, Repository `Mirasch/bvk-agp-user-doc-codex`. Statische Ausgabe `build/`. Den lokalen Ordnernamen nicht mit dem Deployment-Repository verwechseln.
 
 Das vorhandene `npm run deploy` veröffentlicht über Docusaurus auf GitHub Pages: `USE_SSH=true npm run deploy` oder `GIT_USER=<GitHub-Benutzername> npm run deploy`. Nur bei ausdrücklichem Veröffentlichungsauftrag ausführen. Keine Vercel-Konfiguration oder Authentifizierung aus dem Admin-Projekt übernehmen. Ohne Auftrag weder produktive Hosting-Einstellungen noch Git-Remote ändern.

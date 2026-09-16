@@ -11,7 +11,7 @@ npm ci
 npm run start -- --no-open
 ```
 
-Lokale Adresse: <http://localhost:3000/bvk_arbeitgeberportal_doku/>.
+Lokale Adresse: <http://localhost:3000/bvk-agp-user-doc-codex/>.
 
 ## Prüfen und Vorschau
 
@@ -50,10 +50,10 @@ Deutsch mit Schweizer Rechtschreibung und bestehenden Portalbegriffen verwenden.
 
 ## Deployment
 
-Die bestehende GitHub-Pages-Konfiguration bleibt erhalten:
+GitHub-Pages-Konfiguration:
 
-- URL: `https://Mirasch.github.io/bvk_arbeitgeberportal_doku/`
-- Repository: `Mirasch/bvk_arbeitgeberportal_doku`
+- URL: `https://Mirasch.github.io/bvk-agp-user-doc-codex/`
+- Repository: `Mirasch/bvk-agp-user-doc-codex`
 - Statische Ausgabe: `build/`
 
 Nur bei einem ausdrücklich beauftragten Deployment und mit passendem GitHub-Zugriff:
